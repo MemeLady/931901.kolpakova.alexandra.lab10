@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="zxx">
-	<head>
-		<meta charset="utf-8">
-		<title>Now you see me</title>
-		<link rel=stylesheet type="text/css" href="lab10.css"/>
-	</head>
-	<body>
-
-		<script src="lab10.js"></script>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Now you see me</title>
+    <link rel="stylesheet" type="text/css" href="lab10.css" />
+</head>
+<body>
+    <img id="zanaves" src="zanaves.jpg" onclick="scenaUp()">
+    <div class="lamp">
+        <img id="top" src="lamp.png" onclick="turnUpLight()">
+        <img id="stick" src="stick.png">
+    </div>
+    <div id="trap"></div>
+    <div id="before">
+        <img id="wizard" src="wizard.jpg">
+        <div class="magicHat">
+            <img id="hat" src="hat.png">
+            <img id="rabbit" src="rabbit.png">
+            <img id="bird" src="bird.png">
+        </div>
+    </div>
+    <div id="after">
+        <div class="magicOne" onclick="doMagic()" ></div>
+        <div class="magicTwo" onclick="doMagic()"></div>
+    </div>
+    <script src="lab10.js"></script>
+</body>
 </html>
